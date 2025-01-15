@@ -3,10 +3,14 @@
     padding: 0;
 }
 
-main{
+main {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas {
+    border: 2px solid black;
 }
